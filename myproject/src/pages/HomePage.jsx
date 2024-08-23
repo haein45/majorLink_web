@@ -337,9 +337,8 @@ function HomePage() {
             </ViewAllButton>
           </ClassHeader>
           <ClassGrid>
-<<<<<<< HEAD
             <ClassCard>
-              <ClassImage src={examplepng} alt="Marketing Image" />
+              <ClassImage src={examplepng1} alt="Marketing Image" />
               <ClassContent>
                 <ClassTitleText>비즈니스 영어 회화</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -348,7 +347,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="Marketing Image" />
+              <ClassImage src={examplepng2} alt="Marketing Image" />
               <ClassContent>
                 <ClassTitleText>C 프로그래밍</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -357,7 +356,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="기계요소 설계" />
+              <ClassImage src={examplepng3} alt="기계요소 설계" />
               <ClassContent>
                 <ClassTitleText>기계요소 설계</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -366,7 +365,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="디지털 마케팅" />
+              <ClassImage src={examplepng4} alt="디지털 마케팅" />
               <ClassContent>
                 <ClassTitleText>디지털 마케팅</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -374,13 +373,12 @@ function HomePage() {
                 <ClassPeopleListening>👥2/5</ClassPeopleListening>
               </ClassContent>
             </ClassCard>
-=======
             {/* 클래스 컴포넌트 연동 */}
             {lectureListMostLiked.slice(0, 4).map((lecture, index) => (
               <ClassCard
                 key={index /* eslint-disable-line react/no-array-index-key */}
               >
-                <ClassImage src={examplepng} alt="Marketing Image" />
+                <ClassImage src={examplepng1} alt="Marketing Image" />
                 <ClassContent>
                   <ClassTitleText>{lecture.name}</ClassTitleText>
                   <ClassInstruction>
@@ -393,7 +391,6 @@ function HomePage() {
                 </ClassContent>
               </ClassCard>
             ))}
->>>>>>> 32ed7f40857f45e6de9d184db6ad223951c02892
           </ClassGrid>
         </ClassSection>
 
@@ -422,9 +419,8 @@ function HomePage() {
             </ViewAllButton>
           </ClassHeader>
           <ClassGrid>
-<<<<<<< HEAD
             <ClassCard>
-              <ClassImage src={examplepng} alt="비즈니스 영어 회화" />
+              <ClassImage src={examplepng1} alt="비즈니스 영어 회화" />
               <ClassContent>
                 <ClassTitleText>비즈니스 영어 회화</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -433,7 +429,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="C 프로그래밍" />
+              <ClassImage src={examplepng2} alt="C 프로그래밍" />
               <ClassContent>
                 <ClassTitleText>C 프로그래밍</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -442,7 +438,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="기계요소 설계" />
+              <ClassImage src={examplepng3} alt="기계요소 설계" />
               <ClassContent>
                 <ClassTitleText>기계요소 설계</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -451,7 +447,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="디지털 마케팅" />
+              <ClassImage src={examplepng4} alt="디지털 마케팅" />
               <ClassContent>
                 <ClassTitleText>디지털 마케팅</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -459,13 +455,12 @@ function HomePage() {
                 <ClassPeopleListening>👥2/5</ClassPeopleListening>
               </ClassContent>
             </ClassCard>
-=======
             {/* 클래스 컴포넌트 연동 */}
             {lectureListNew.slice(0, 4).map((lecture, index) => (
               <ClassCard
                 key={index /* eslint-disable-line react/no-array-index-key */}
               >
-                <ClassImage src={examplepng} alt="Marketing Image" />
+                <ClassImage src={examplepng1} alt="Marketing Image" />
                 <ClassContent>
                   <ClassTitleText>{lecture.name}</ClassTitleText>
                   <ClassInstruction>
@@ -478,7 +473,6 @@ function HomePage() {
                 </ClassContent>
               </ClassCard>
             ))}
->>>>>>> 32ed7f40857f45e6de9d184db6ad223951c02892
           </ClassGrid>
         </ClassSection>
 
@@ -490,9 +484,8 @@ function HomePage() {
             </ViewAllButton>
           </ClassHeader>
           <ClassGrid>
-<<<<<<< HEAD
             <ClassCard>
-              <ClassImage src={examplepng} alt="비즈니스 영어 회화" />
+              <ClassImage src={examplepng1} alt="비즈니스 영어 회화" />
               <ClassContent>
                 <ClassTitleText>비즈니스 영어 회화</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -501,7 +494,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="C 프로그래밍" />
+              <ClassImage src={examplepng2} alt="C 프로그래밍" />
               <ClassContent>
                 <ClassTitleText>C 프로그래밍</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -510,7 +503,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="기계요소 설계" />
+              <ClassImage src={examplepng3} alt="기계요소 설계" />
               <ClassContent>
                 <ClassTitleText>기계요소 설계</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -519,7 +512,7 @@ function HomePage() {
               </ClassContent>
             </ClassCard>
             <ClassCard>
-              <ClassImage src={examplepng} alt="디지털 마케팅" />
+              <ClassImage src={examplepng4} alt="디지털 마케팅" />
               <ClassContent>
                 <ClassTitleText>디지털 마케팅</ClassTitleText>
                 <ClassInstruction>인문과학 {'>'} 영어영문</ClassInstruction>
@@ -527,13 +520,12 @@ function HomePage() {
                 <ClassPeopleListening>👥2/5</ClassPeopleListening>
               </ClassContent>
             </ClassCard>
-=======
             {/* 클래스 컴포넌트 연동 */}
             {lectureListMostRecruited.slice(0, 4).map((lecture, index) => (
               <ClassCard
                 key={index /* eslint-disable-line react/no-array-index-key */}
               >
-                <ClassImage src={examplepng} alt="Marketing Image" />
+                <ClassImage src={examplepng1} alt="Marketing Image" />
                 <ClassContent>
                   <ClassTitleText>{lecture.name}</ClassTitleText>
                   <ClassInstruction>
@@ -546,7 +538,6 @@ function HomePage() {
                 </ClassContent>
               </ClassCard>
             ))}
->>>>>>> 32ed7f40857f45e6de9d184db6ad223951c02892
           </ClassGrid>
         </ClassSection>
       </Container>
