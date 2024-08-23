@@ -302,7 +302,7 @@ function SignupPage() {
           </InputWrapper1>
         </Box>
       </Wrapper>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

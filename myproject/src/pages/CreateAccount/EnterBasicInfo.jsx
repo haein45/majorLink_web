@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
@@ -183,7 +183,7 @@ const Separator = styled.hr`
 function EnterBasicInfo() {
   const navigate = useNavigate();
   const [username, setUserName] = useState("");
-  const [birth, setBirth] = useState("");
+  const [birth , setBirth] = useState("");
   const [nickname, setNickname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -198,23 +198,7 @@ function EnterBasicInfo() {
     marketingNotification: false,
   });
   const [passwordVisible, setPasswordVisible] = useState(false);
-  const [message, setMessage] = useState("");
-  const [provider] = useState("NAVER"); 
-  const [providerId, setProviderId] = useState(""); 
-  const [accessToken, setAccessToken] = useState(""); 
-
-  useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('providerId');  
-    const token = urlParams.get('accessToken');
-
-    if (id) {
-      setProviderId(id);  
-    }
-    if (token) {
-      setAccessToken(token);  
-    }
-  }, []);
+  const [message, setMessage] = useState(""); 
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
@@ -261,9 +245,6 @@ function EnterBasicInfo() {
     ) {
       axios
         .post("/users/sign-up", {
-          provider,
-          providerId,
-          accessToken,
           username,
           birth,
           nickname,
@@ -433,6 +414,5 @@ function EnterBasicInfo() {
     </div>
   );
 }
-
 
 export default EnterBasicInfo;
